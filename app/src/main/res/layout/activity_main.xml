@@ -3,18 +3,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/red"
-    android:orientation="vertical">
 
+    android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvMainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:background="@color/colorAccent"
+        tools:text="Hola Platzi , curso de interfaces"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textSize="20sp"
+        tools:background="@color/red"
+        tools:text="Hola Platzi , curso de interfaces"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hola Platzi, curso de interfaces" />
+        tools:background="@color/colorAccent"
+        tools:text="Hola Platzi , curso de interfaces"/>
+
+
     <EditText
+        android:background="@color/colorPrimaryDark"
+        android:inputType="number"
         android:hint="Escribe tu nombre"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
