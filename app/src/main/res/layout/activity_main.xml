@@ -23,6 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        style="@style/AppTheme.EditTextStyle"
         android:id="@+id/etLoginUsername"
         android:layout_width="0dp"
         android:layout_width="match_parent"
@@ -30,7 +31,7 @@
         android:layout_margin="12dp"
 
         android:drawableStart="@drawable/vector_person"
-        android:drawablePadding="12dp"
+
         android:hint="@string/hint_usuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
