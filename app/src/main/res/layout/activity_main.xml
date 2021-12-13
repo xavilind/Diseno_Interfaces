@@ -2,38 +2,45 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:background="@android:color/white"
 
     android:orientation="vertical">
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvMainTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:background="@color/colorAccent"
-        tools:text="Hola Platzi , curso de interfaces"/>
-
-    <TextView
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="160dp"
         android:layout_height="120dp"
-        android:textSize="20sp"
-        tools:background="@color/red"
-        tools:text="Hola Platzi , curso de interfaces"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:background="@color/colorAccent"
-        tools:text="Hola Platzi , curso de interfaces"/>
+        android:src="@drawable/logo" />
 
 
     <EditText
-        android:background="@color/colorPrimaryDark"
-        android:inputType="number"
-        android:hint="Escribe tu nombre"
-        android:layout_width="wrap_content"
+        android:layout_margin="12dp"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/vector_person"
+        android:hint="@string/hint_usuario"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <EditText
+        android:layout_margin="12dp"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/vector_lock"
+        android:hint="@string/hint_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

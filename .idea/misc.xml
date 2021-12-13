@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/HP/AndroidStudioProjects/DisenoDeInterfaces/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/DisenoDeInterfaces/app/src/main/res/drawable/vector_arrow.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/DisenoDeInterfaces/app/src/main/res/drawable/vector_lock.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/DisenoDeInterfaces/app/src/main/res/drawable/vector_person.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/DisenoDeInterfaces/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>
